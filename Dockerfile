@@ -4,4 +4,6 @@ WORKDIR /app
 
 COPY . .
 
+EXPOSE 5209
+
 CMD ["dotnet", "run"]
