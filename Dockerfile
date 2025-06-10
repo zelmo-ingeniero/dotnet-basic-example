@@ -1,5 +1,7 @@
 FROM mcr.microsoft.com/dotnet/sdk:8.0
 
+LABEL org.opencontainers.image.source https://github.com/zelmo-ingeniero/dotnet-basic-example
+
 WORKDIR /app
 
 COPY . .
